@@ -10,6 +10,10 @@ h1{
 .nav{
   display: inline-flex;
 }
+.buttonborder{
+  width: 50%;
+  height: 100px;
+}
 .pictureborder{
   width: 20%;
 }
