@@ -1,0 +1,25 @@
+.background{
+  background-color: #CBF3F0;
+}
+
+h1{
+  font-family: futura-pt, sans-serif;
+  font-size: 16px;
+  color: #C8553D;
+}
+.nav{
+  display: inline-flex;
+}
+.pictureborder{
+  width: 20%;
+}
+.buttons{
+  display: inline-flex;
+  float: right;
+}
+.button{
+ padding: 10px;
+}
+
+
+
