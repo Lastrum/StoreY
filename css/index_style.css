@@ -1,32 +1,35 @@
-.background{
+
+.nav-padding{
+  padding-left: 1px;
+}
+.nav{
   background-color: #CBF3F0 !important;
+  width: 50%;
 }
-
-.cyan{
-  background: #2EC4B6 !important;
+.nav-btn {
+  border: solid #2EC4B6 1px;
+  background-color: #CBF3F0;
 }
-.light-cyan{
-  background: #CBF3F0 !important;
+.nav-btn:hover{
+  background-color: #2EC4B6;
 }
-.yellow{
-  background: #FF9F1C !important;
-}
-.red{
-  background: #C8553D !important;
-}
-
-.text-white{
-  color: white;
-}
-
 h1{
   font-family: futura-pt, sans-serif;
   font-size: 16px;
   color: #C8553D;
 }
-.nav{
-  display: inline-flex;
+
+.hrline{
+  height:5px;border-width:0;color:#C8553D;background-color:#C8553D;
 }
+
+.faq-icon{
+  font-size: 48px;
+}
+.faq-text{
+  font-size: 20px;
+}
+
 .buttonborder{
   width: 50%;
   height: 100px;
@@ -40,6 +43,18 @@ h1{
 }
 .button{
  padding: 10px;
+}
+.bullet_points {
+  max-width: 640px;
+  display: flex;
+}
+.bullet{
+  color: #2EC4B6;
+  padding-right: 20px;
+  font-size: 48px;
+}
+.container__text {
+  flex: 1 1 auto;
 }
 
 .site-footer
